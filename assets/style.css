@@ -6,7 +6,7 @@ header{background:var(--psu-navy);border-bottom:3px solid var(--rise-gold)}
 .brand,.nav-links a{color:#fff}
 .brand-mark{border-color:var(--rise-gold);color:#f4ce87}
 .nav-links a:hover,.nav-links a:focus-visible{color:#f4ce87}
-.lab-heading{border-bottom:1px solid #e6e0d5}
+.lab-heading{border-bottom:0;padding-bottom:20px}#overview{padding-top:10px}#overview h2:after{display:none}
 h1 strong{color:var(--psu-navy)}
 .full-name{color:var(--rise-gold-dark)}
 h2:after{background:linear-gradient(90deg,#c6923d 0 58px,#e5e1d9 58px)}
