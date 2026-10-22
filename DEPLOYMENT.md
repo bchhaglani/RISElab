@@ -1,37 +1,23 @@
 # RISE Lab website
 
-A responsive, dependency-free static website for GitHub Pages. No installation or build step is required. Content remains readable without JavaScript, and all internal links work under a GitHub project subdirectory.
+Hosted at https://bhawana1999.github.io/RISElab/ using GitHub Pages, main branch, repository root.
 
-## Preview locally
+## Update content
 
-Run `python3 -m http.server 8000` from this folder, then open http://localhost:8000.
+Edit `index.html` for the overview, recruitment banner, news, research directions, people, selected publications, and joining information. The page is plain HTML and works without JavaScript.
 
-## Publish on GitHub Pages
+Edit `assets/style.css` for styling. If you change the stylesheet, increment the query version in its link in `index.html` to refresh browser caches.
 
-1. Create a public GitHub repository, for example `rise-lab`. For an organization homepage, use `<organization>.github.io` instead.
-2. Upload the **contents of this folder**, including `.nojekyll`, to the repository root on the `main` branch. Do not upload only the ZIP or nest the site in another folder.
-3. Open repository Settings → Pages. Under Build and deployment choose **Deploy from a branch**, then `main` and `/ (root)`, and Save.
-4. Open the URL GitHub shows when deployment completes. A project site uses `https://<account>.github.io/rise-lab/`; an organization homepage uses `https://<organization>.github.io/`.
+`research.html`, `people.html`, and `join.html` redirect earlier links to the corresponding homepage sections.
 
-## Editing
+GitHub Pages publishes changes committed to main automatically. Preview locally with `python3 -m http.server 8000`.
 
-- `index.html`: homepage and research summaries.
-- `research.html`: research directions and project descriptions.
-- `people.html`: director biography and future members.
-- `join.html`: recruitment information and admissions link.
-- `assets/style.css`: colors, spacing, typography, and responsive layout.
-- Shared headers/footers are repeated in the four HTML files. Apply navigation changes to all four.
+## Sources and content
 
-GitHub’s web editor can edit these files directly; commit changes to trigger deployment.
+The design follows the simple academic lab structure requested by the lab director, informed by https://hzhou3.github.io/hai/ and https://reach-lab.io/. Code and wording are original.
 
-## Content to verify before public launch
+Publication metadata and links were checked against the director’s public website and the corresponding arXiv or publisher records. FeatureSense and NeckCare are labeled as preprints.
 
-- Confirm all research descriptions and the director bio.
-- Add the preferred public lab email or faculty profile to the People and Join pages. No email address has been guessed.
-- Add the student interest form once its URL is ready.
-- Add verified publication citations, paper links, and project links. Unverified publication metadata and unpublished numerical results are intentionally omitted.
-- Replace the initials panel with a provided headshot if desired.
-- Confirm recruitment wording and funded positions before announcing specific openings.
-- Check Penn State’s current branding guidance before adding university marks. This draft uses a text affiliation and a custom wordmark, not an official university logo.
+A monogram stands in for the director photo. The personal website and Google Scholar profile are linked for contact and further publications. Add the preferred Penn State email and student interest form once supplied. No sponsors or student members have been invented.
 
-No analytics, tracking, cookies, external fonts, or external scripts are included. No custom domain is configured. There are no runtime dependencies.
+The site has no external fonts, analytics, or JavaScript dependencies.
