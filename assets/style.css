@@ -31,3 +31,15 @@ footer{border-top:2px solid var(--psu-navy)}
 a.publication-card:hover{text-decoration:none;border-color:#c6923d;box-shadow:0 4px 16px #001e440b}.paper-image{height:115px;background:#fff;border-bottom:1px solid #ece9e1;padding:8px;display:flex;align-items:center;justify-content:center}.paper-image img{height:100%;width:100%;object-fit:contain}.paper-details{padding:12px 13px 13px;display:flex;flex-direction:column;flex:1}.paper-details h5{font-size:15px;line-height:1.4;color:#001e44;margin:0 0 7px;font-weight:700}.paper-details h5 span{float:right;font-size:14px;color:#a67730;font-weight:400}.paper-details p{font-size:11px;line-height:1.55;color:#626e77;margin:0 0 10px}.conference{font-size:10px;font-weight:650;color:#805515;align-self:flex-start;background:#faf1df;padding:3px 8px;border-radius:3px;margin-top:auto}.conference.status{background:#f0f3f6;color:#5f6d7a}.publication-card.pending{border-style:dashed}
 @media(max-width:800px){.nav-links{gap:15px}.nav-links a{font-size:10px}.lab-logo{width:150px;height:auto}.publication-grid,.publication-grid.three{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.nav-links{gap:13px;justify-content:space-between}.nav-links a{font-size:9px}.lab-logo{width:145px;height:34px}.direction-heading h3{font-size:17px}.direction-heading{gap:12px}.direction-intro{font-size:13px}.publication-grid,.publication-grid.three{grid-template-columns:1fr}.paper-image{height:130px}.paper-details{padding:12px 14px 14px}.paper-group h4{font-size:12px}.research-direction{margin-bottom:18px;padding-bottom:28px}#research-heading{font-size:12px}}
+
+/* Narrow publication cards with readable figure previews. */
+.publication-grid,.publication-grid.three{grid-template-columns:repeat(auto-fill,minmax(0,220px));gap:12px}
+.paper-image{height:100px;padding:7px}
+.paper-details{padding:10px 11px 12px}
+.paper-details h5{font-size:14px}
+.paper-details p{line-height:1.5;margin-bottom:9px}
+.paper-badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
+.paper-badges .conference{margin-top:0}
+@media(max-width:800px){.publication-grid,.publication-grid.three{grid-template-columns:repeat(auto-fill,minmax(0,210px))}}
+@media(max-width:600px){.publication-grid,.publication-grid.three{grid-template-columns:repeat(auto-fill,minmax(0,200px))}.paper-image{height:105px}}
+@media(max-width:260px){.publication-grid,.publication-grid.three{grid-template-columns:minmax(0,1fr)}}
