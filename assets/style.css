@@ -52,3 +52,9 @@ a.publication-card:hover{text-decoration:none;border-color:#c6923d;box-shadow:0 
 .contact p+p{margin-top:12px}
 #contact{scroll-margin-top:95px}
 @media(max-width:600px){.paper-group h4{font-size:15px}.person-contact{font-size:12px}.profile-links{column-gap:9px}.nav-links{gap:11px}}
+
+/* Pair related research topics while retaining compact publication cards. */
+.topic-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin:25px 0 30px;align-items:start}
+.topic-pair>.paper-group{margin:0;min-width:0}
+.topic-pair:last-child{margin-bottom:0}
+@media(max-width:1000px){.topic-pair{grid-template-columns:1fr;gap:26px}}
