@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260"><rect width="600" height="260" fill="#f8f7f2"/><g fill="none" stroke="#1e407c" stroke-width="4"><path d="M65 135h18l10-25 14 50 15-80 15 110 15-90 15 55 12-20h25"/><rect x="240" y="70" width="128" height="130" rx="16"/><path d="M205 135h30M375 135h45"/><rect x="430" y="83" width="112" height="103" rx="15" stroke="#c6923d"/><path d="m455 135 17 18 41-43" stroke="#001e44"/></g><text x="304" y="144" text-anchor="middle" font-family="Arial" font-size="24" fill="#001e44">Audio AI</text><text x="300" y="239" text-anchor="middle" font-family="Arial" font-size="13" letter-spacing="1" fill="#6a7278">CONCEPT ILLUSTRATION</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="294" viewBox="0 95 1100 294">
+<rect width="1100" height="420" rx="20" fill="#ffffff"/>
+<!-- Audio input: unlabeled signal rather than known sound classes. -->
+<rect x="35" y="135" width="264" height="214" rx="18" fill="#f4f7fa" stroke="#d9e2eb" stroke-width="1.5"/>
+<text x="167" y="174" text-anchor="middle" font-family="Helvetica" font-size="20" font-weight="700" fill="#001e44">Audio signal</text>
+<path d="M57 251h28l6-9 6 16 7-38 8 65 8-90 8 101 9-79 8 55 7-23 7 11h18q9-35 18 0t18 0 18 0 18 0h14" fill="none" stroke="#1e407c" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Clean, directional flow. -->
+<g fill="none" stroke="#9aabba" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M315 242h58m-10-8 10 8-10 8M701 242h60m-10-8 10 8-10 8"/></g>
+<!-- Model with a protection and verification motif. -->
+<rect x="389" y="120" width="296" height="244" rx="22" fill="#001e44"/>
+<g fill="none" stroke="#63809e" stroke-width="1.8"><path d="M434 184l36-23 43 28 35-31 44 26 39-23M434 184l36 39 43-34 35 35 44-40 39 37M470 161v62m43-34 35-31m0 66 44-40"/></g>
+<g fill="#bdd2e6"><circle cx="434" cy="184" r="5"/><circle cx="470" cy="161" r="5"/><circle cx="470" cy="223" r="5"/><circle cx="513" cy="189" r="5"/><circle cx="548" cy="158" r="5"/><circle cx="548" cy="224" r="5"/><circle cx="592" cy="184" r="5"/><circle cx="631" cy="161" r="5"/><circle cx="631" cy="221" r="5"/></g>
+<path d="M537 170l39 15v31c0 25-18 44-39 56-21-12-39-31-39-56v-31z" fill="#173c5a" stroke="#deb366" stroke-width="2.5"/>
+<path d="m519 216 12 12 25-29" fill="none" stroke="#f4d594" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="537" y="304" text-anchor="middle" font-family="Helvetica" font-size="25" font-weight="700" fill="#ffffff">AudioLLM</text>
+<!-- Correct, human-readable class predictions. -->
+<rect x="780" y="135" width="285" height="214" rx="18" fill="#f2f8f4" stroke="#c5dfcf" stroke-width="1.5"/>
+<text x="922" y="174" text-anchor="middle" font-family="Helvetica" font-size="20" font-weight="700" fill="#174d37">Correct sound events</text>
+<rect x="801" y="198" width="242" height="52" rx="9" fill="#ffffff" stroke="#dae9df"/>
+<rect x="801" y="264" width="242" height="52" rx="9" fill="#ffffff" stroke="#dae9df"/>
+<circle cx="829" cy="224" r="13" fill="#287853"/><circle cx="829" cy="290" r="13" fill="#287853"/>
+<g fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m823 224 4 4 8-9M823 290l4 4 8-9"/></g>
+<text x="856" y="232" font-family="Helvetica" font-size="22" font-weight="700" fill="#174d37">Coughing</text>
+<text x="856" y="298" font-family="Helvetica" font-size="22" font-weight="700" fill="#174d37">Breathing</text>
+</svg>
