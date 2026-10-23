@@ -43,3 +43,12 @@ a.publication-card:hover{text-decoration:none;border-color:#c6923d;box-shadow:0 
 @media(max-width:800px){.publication-grid,.publication-grid.three{grid-template-columns:repeat(auto-fill,minmax(0,210px))}}
 @media(max-width:600px){.publication-grid,.publication-grid.three{grid-template-columns:repeat(auto-fill,minmax(0,200px))}.paper-image{height:105px}}
 @media(max-width:260px){.publication-grid,.publication-grid.three{grid-template-columns:minmax(0,1fr)}}
+
+/* More prominent research topic labels and complete director contact details. */
+.paper-group h4{font-size:16px;line-height:1.4;margin-bottom:14px}
+.biography p{margin-bottom:14px!important}
+.profile-links{flex-wrap:wrap;row-gap:4px}
+.person-contact{font-size:13px;font-style:normal;line-height:1.9;margin-top:14px;color:#526574}
+.contact p+p{margin-top:12px}
+#contact{scroll-margin-top:95px}
+@media(max-width:600px){.paper-group h4{font-size:15px}.person-contact{font-size:12px}.profile-links{column-gap:9px}.nav-links{gap:11px}}
