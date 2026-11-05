@@ -63,3 +63,7 @@ a.publication-card:hover{text-decoration:none;border-color:#1e407c;box-shadow:0 
 .research-number{background:rgba(181,138,66,.13);border-color:rgba(181,138,66,.35);color:var(--psu-navy)}
 .conference:not(.status){background:rgba(181,138,66,.15);color:var(--psu-navy)}
 a.publication-card:hover{border-color:var(--rise-accent)}
+
+/* RISE mottos echo the lab’s navy and gold accents. */
+.rise-motto{font-size:clamp(17px,2.5vw,22px);font-weight:600;line-height:1.5;color:var(--psu-navy);margin:22px 0 0;padding-left:16px;border-left:3px solid var(--rise-accent)}
+.rise-quote{font-size:clamp(17px,2.3vw,21px);font-family:Georgia,serif;font-style:italic;line-height:1.6;color:var(--psu-blue);margin:0 0 24px;padding-left:16px;border-left:3px solid var(--rise-accent)}
